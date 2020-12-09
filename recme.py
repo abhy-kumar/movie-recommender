@@ -5,3 +5,4 @@ from lightfm import LightFM
 data = fetch_movielens()
 
 print(repr(data['train']))
+print(repr(data['test']))
